@@ -11,12 +11,11 @@ console.log('1. Number of partsNeeded:' , partsNeeded);
 //    the following numbers: 3, 5, -6, 0, 7, 11
 let supplyChanges = [3 , 5, -6, 0, 7, 11];
 console.log('2. Array of supplyChanges:' , supplyChanges);
-l
 
 // 3. Console log the value of 'supplyChanges' at index 2
-console.log('3. Item at index 2 is:' supplyChanges[2]);
+console.log('3. Item at index 2 is:' , supplyChanges[2]);
 
-  break;
+
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges'
 //    array & console.log the value removed.
 supplyChanges.pop()
@@ -31,8 +30,8 @@ supplyChanges.push(25);
 //    - if it is a positive number (greater than 0), log 'Added x parts.'
 //    - if the value is 0, skip it. Do not log it to the console.
 //    - if the value is negative, format the log as 'Part count -x.'
-for (let x=0; i<supplyChanges.length, x++) {
-  console.log('6. Showing supplyChanges...' supplyChanges[0]);
+for (let x=0; i<supplyChanges.length; x++) {
+  console.log('6. Showing supplyChanges...' , supplyChanges[0]);
 }
 if (supplyChanges[x] > 0) {
   console.log('Added x parts.');
