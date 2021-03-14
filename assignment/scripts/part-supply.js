@@ -30,40 +30,14 @@ supplyChanges.push(25);
 //    - if it is a positive number (greater than 0), log 'Added x parts.'
 //    - if the value is 0, skip it. Do not log it to the console.
 //    - if the value is negative, format the log as 'Part count -x.'
-for (let x=0; i<supplyChanges.length; x++) {
-  console.log('6. Showing supplyChanges...' , supplyChanges[0]);
+console.log('6. Showing supplyChanges...')
+for (let i=0; i<supplyChanges.length; i++) {
+  if (supplyChanges[i] > 0) {
+    console.log("Added" , supplyChanges[i] , "parts.");
+  } else if (supplyChanges[i] < 0) {
+    console.log("Part count" , supplyChanges[i]);
+  }
 }
-if (supplyChanges[x] > 0) {
-  console.log('Added x parts.');
-} else if (supplyChanges[x] < 0) {
-  console.log('Added -x parts');
-} else
-
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
 // 7. Rewrite the `for` loop from #6 as a `for of` loop.
-for (supplyChanges) {
-  console.log('7. Showing supplyChanges with "for of" loop' , supplyChanges);
-}
-if (supplyChanges[x] > 0) {
-  console.log('Added x parts.');
-} else if (supplyChanges[x] < 0) {
-  console.log('Added -x parts');
-} else
-
-// 8. Rewrite the `for` loop from #6 as a `while` loop.
-let x=0
-const max=6
-while (x<6) {
-  console.log('8. Showing supplyChanges with "while" loop');
-  x++
-}
-if (supplyChanges[x] > 0) {
-  console.log('Added x parts.');
-} else if (supplyChanges[x] < 0) {
-  console.log('Added -x parts');
-} else
-// 9. Write a loop to determine the total number of parts available by
-//    adding up all the numbers in the 'supplyChanges' array.
-for (let x=0)
-console.log('9. Total supplies available is:');
