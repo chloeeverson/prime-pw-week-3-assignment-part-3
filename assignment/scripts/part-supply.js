@@ -18,8 +18,8 @@ console.log('3. Item at index 2 is:' , supplyChanges[2]);
 
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges'
 //    array & console.log the value removed.
-supplyChanges.pop()
-console.log('4. Removed item:' , 11);
+const removed = supplyChanges.pop()
+console.log('4. Removed item:' , removed);
 
 // 5. A delivery of 25 more parts arrived. Add the value 25 to the end of the array
 console.log('5. Adding 25 to supplyChanges.');
